@@ -1,0 +1,147 @@
+The Fallacy of Zero Entropy in Information Technology Systems: A Unified Cybersecurity Thesis Integrating NIST Risk Modeling, DERS, and Negative Trust
+
+Author: Gabriel Duarte (Basic, handler)
+Affiliation: Independent Researcher  
+Date: April-September 2025
+
+---
+
+Abstract
+
+This manuscript challenges the foundational assumption of zero entropy in cybersecurity modeling, arguing that such a premise is both mathematically fragile and ethically negligent. Drawing from the National Institute of Standards and Technology (NIST) enterprise risk architecture, Shannon’s entropy equation, and the author’s original Framework of Negative Trust, the paper introduces the Digital Ethics Risk Score (DERS)—a symbolic and computational patch that enforces a minimum viable malice threshold. Represented by the glyph 𝔄, DERS ensures that no threat is dismissed due to statistical insignificance. By merging these frameworks, the paper proposes a new paradigm for resilient, ethically grounded cybersecurity governance.
+
+---
+
+1. Introduction
+
+Enterprise networks have become essential to the operation of companies, laboratories, universities, and government agencies. As they continue to grow in size and complexity, their security has become a critical concern. Vulnerabilities are regularly discovered in software applications and exploited to stage cyberattacks. Yet, as NIST acknowledges, “there is no objective way to measure the security of an enterprise network.” This absence of quantification leaves organizations unable to answer foundational questions such as: Are we more secure than yesterday? or How should we invest our limited resources to improve security?
+
+This paper proposes a synthesis of NIST’s cybersecurity architecture, Shannon’s entropy equation, and two original contributions: the Digital Ethics Risk Score (DERS) and the Framework of Negative Trust. Together, these elements form a comprehensive model for ethical and quantitative cybersecurity assessment.
+
+---
+
+2. NIST Cybersecurity Architecture and Present Risk
+
+NIST’s cybersecurity research spans multiple domains:
+
+- Cryptographic Technology  
+- Secure Systems and Applications  
+- Security Components and Mechanisms  
+- Security Engineering and Risk Management  
+- Security Testing, Validation, and Measurement  
+- Applied Cybersecurity Division  
+- Cybersecurity and Privacy Applications  
+- National Cybersecurity Center of Excellence (NCCoE)  
+- National Initiative for Cybersecurity Education (NICE)
+
+Its architecture includes:
+
+- Analysis of System Vulnerabilities: Monitoring network states and identifying exploitable weaknesses.  
+- Analysis of Current Attacks: Detecting multi-step intrusions using logs and intrusion detection systems (IDS).  
+- Visualization Systems: Providing interactive, multi-resolution dashboards for situational awareness.
+
+These components aim to create a measurable, responsive cybersecurity ecosystem. However, they remain largely qualitative, limiting their capacity to model risk with precision.
+
+---
+
+3. Shannon’s Entropy and Its Limits
+
+Shannon’s entropy equation:
+
+\[
+H(X) = -\sum{i=1}^{n} p(xi) \log2 p(xi)
+\]
+
+quantifies uncertainty in a system. In cybersecurity, \( p(xi) \) may represent the likelihood of a vulnerability being exploited. Yet when \( p(xi) = 0 \), the logarithmic term becomes undefined. In practice, this leads to blind spots—threats that are ignored because they are “too rare.” But in a system where zero-day exploits, insider threats, and hybrid attacks exist, rarity does not equal irrelevance.
+
+---
+
+4. The Fallacy of Zero Entropy
+
+Zero entropy assumes perfect predictability or total security. But in IT systems:
+
+- Configurations change constantly  
+- Attack surfaces evolve  
+- User behavior introduces randomness  
+- Vendor access and telemetry create hidden vectors
+
+Thus, zero entropy is not just incorrect—it is a denial of reality. It creates a false sense of security and undermines ethical responsibility. As NIST notes, “without quantitative models of security it is difficult to compare one network configuration with another.” This absence of objectivity is exacerbated by entropy models that erase low-probability threats.
+
+---
+
+5. DERS: The Digital Ethics Risk Score
+
+To correct this, we introduce DERS:
+
+`python
+if (probability < 0.0001):
+    probability = 0.0001  # DERS patch: minimum viable malice
+`
+
+This adjustment enforces a lower bound on threat probability, ensuring that no risk is mathematically erased. The symbol 𝔄, drawn from classic Germanic script, represents this ethical correction—a visual and conceptual reminder that digital systems must account for latent malice.
+
+DERS transforms entropy from a purely mathematical abstraction into a tool for ethical cybersecurity governance. Its benefits include:
+
+- Resilience: Prevents false security from zero-probability assumptions.  
+- Proactivity: Encourages defense against low-frequency, high-impact threats.  
+- Alignment: Supports NIST’s mission for measurable, actionable security metrics.
+
+---
+
+6. Negative Trust: A Framework for Ethical Modeling
+
+The Framework of Negative Trust complements DERS by recognizing that:
+
+1. Everything suspected as a threat vector is already exploited or studied.  
+2. Mainstream developers maintain alternative access to their systems.  
+3. This access may be explicit (monitoring) or implicit (errors), but always intentional.  
+4. Physical and logical flaws, though intentional, can be unpredictable.  
+5. Exploits may be designed or discovered through investigation.  
+
+In the context of user behavior analytics and post-industrial IT development:
+
+6. Decentralization counters exploitation.  
+7. Terms of service obscure real technological reach.  
+8. Statistics reflect identity and culture, even when randomized.  
+9. Legal identity contrasts with anonymized user IDs.  
+10. State documentation resists corporative digital certification.  
+11. DERS introduces a symbolic and computational patch to entropy modeling, ensuring that even low-probability threats are ethically acknowledged.
+
+---
+
+7. Embedding DERS into NIST Architecture
+
+DERS can be integrated into:
+
+- Vulnerability analysis: Flagging even rare exploits.  
+- Attack detection: Modeling low-probability steps.  
+- Visualization systems: Displaying entropy-adjusted risk scores.  
+- Security metrics: Quantifying ethical uncertainty.
+
+This transforms NIST’s qualitative framework into a resilient, quantitative, and ethically aware system. As NIST IR 8286A emphasizes, cybersecurity risk must be “identified, estimated, and prioritized” within enterprise governance.
+
+---
+
+8. Ethical Implications
+
+Ignoring rare threats is a form of digital negligence. DERS reframes cybersecurity as a moral discipline—where every threat, no matter how improbable, is acknowledged. The symbol 𝔄 becomes a glyph of digital conscience, embedded in every entropy calculation.
+
+This ethical stance aligns with NIST’s emphasis on governance and mission alignment. Cybersecurity is not merely a technical function—it is a strategic and ethical responsibility.
+
+---
+
+# STATEMENT
+
+Zero entropy is a fallacy in modern IT systems. It ignores the complexity, unpredictability, and ethical weight of digital risk. By integrating NIST’s present risk model with Shannon’s entropy and embedding DERS as an ethical signal, we move toward a future where cybersecurity is not only measured—but morally managed.
+
+---
+
+References
+
+1. Shannon, C. E. (1948). A Mathematical Theory of Communication. Bell System Technical Journal, 27(3), 379–423.  
+2. Quinn, S., Ivy, N., Barrett, M., Feldman, L., Witte, G., & Gardner, R. (2021). Identifying and Estimating Cybersecurity Risk for Enterprise Risk Management (NIST IR 8286A). National Institute of Standards and Technology.  
+3. Stine, K., Quinn, S., Witte, G., & Gardner, R. (2020). Integrating Cybersecurity and Enterprise Risk Management (ERM) (NIST IR 8286). National Institute of Standards and Technology.  
+4. CERT Coordination Center. (2025). Weekly Vulnerability Reports. Carnegie Mellon University.  
+5. Singhal, A. (2025). Security Risk Analysis Using Attack Graphs. NIST Cybersecurity Division.  
+
+---
